@@ -1,0 +1,21 @@
+Steps to deploy Android Application
+
+1.Prepare App
+
+2.Generate Signed APK(Android Package Kit)
+    -> In Android studio navigate to build->Generate signed Bundle/APK
+    ->Follow the prompts to create the new keystore or use an existing one.A keystore is a binary file that contains a set of private keys.
+->Configure the build type(release) and signing configuration.
+->Generate the signed APK file.
+
+3.Test your Signed APK:
+Before distributing your app, test the signed APK to ensure that the signing process does not have any issues.
+Install the APK on various devices and perform through testing.
+Release on Google play console:
+Sign in to Googleplay console
+Create a new app entry if this is the first release or select an existing app.
+Complete all the required information for the app listing, including the title,description, screenshots and categorization.
+Upload the signed APK file.
+Set pricing and distribution options.
+Optimize the store listing for search and conversion.
+Once everything is set click on Publish button to release the app to the Google Play store.
